@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Muestra App</title>
+  <title>Pruebas públicas Carlos</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -19,24 +19,36 @@
     <h1>Página de inicio de cizquierdof.github.io</h1>
     <p>Esta es la página de inicio para hacer pruebas públicas de Carlos Izquierdo Ferrando</p>
   </header>
-  <main>
-    <div class="card mt-3 mx-3" style="width: 30rem;">
-      <div class="card-body">
-        <h2>Alternativa de texto de SVG</h2>
-        <p>En el siguiente SVG se ha establecido un rol img y aria-label="Círculos rojos", también tiene una etiqueta &lttitle&gtDos círculos&lt/title&gt</p>
-        <svg class="card-img-bottom"
-        viewBox="0 0 300 100"
-        xmlns="http://www.w3.org/2000/svg"
-        stroke="grey"
-        fill="red"
-        role="img"
-        aria-label="círculos rojos">
-        <title>Dos círculos</title>
-        <circle cx="100" cy="50" r="40" />
-        <circle cx="200" cy="50" r="20" />   
-      </svg>
+  <main class="container">
+    <div class="row">
+
+      <div class="card mt-3 mx-3 col" style="width: 30rem;">
+        <div class="card-body">
+          <h2>Alternativa de texto de SVG</h2>
+          <p>En el siguiente SVG se ha establecido un rol img y aria-label="Círculos rojos", también tiene una etiqueta &lttitle&gtDos círculos&lt/title&gt</p>
+          <svg 
+          viewBox="0 0 300 100"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="grey"
+          fill="red"
+          role="img"
+          aria-label="círculos rojos">
+          <title>Dos círculos</title>
+          <circle cx="100" cy="50" r="40" />
+          <circle cx="200" cy="50" r="20" />   
+        </svg>
       </div>
     </div>
+    <div class="card mt-3 mx-3 col" style="width: 30rem;">
+      <div class="card-body">
+        <h2>Alternativa de texto de SVG</h2>
+        <p>Alternativa de texto para un fichero SVG:</p>
+        <p>El logotipo de Insuit es un SVG pero insertado con una etiqueta &ltimg&gt, la alternativa de texto es con alt.</p>
+        
+      </div>
+      <img src="assets/logo-inSuit.6fe81e32.svg" alt="Logo Insuit, Suitable e-inclusión">
+    </div>
+  </div>
   </main>
   <footer>
 
